@@ -32,7 +32,7 @@ jobs:
         
     - name: Push build image
       run:
-        docker push -t nestordaniel29/docker-graphql:0.0.2 .
+        docker push -t nestordaniel29/docker-graphql:0.0.2
      
      
 #     - name: Build the Docker image
