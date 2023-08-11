@@ -26,12 +26,12 @@ jobs:
      
         
     - name: Docker build image
-      run:
+      run: |
         docker build -t nestordaniel29/docker-graphql:0.0.2 .
         docker build -t nestordaniel29/docker-graphql:latest .
         
     - name: Push build image
-      run:
+      run: |
         docker push nestordaniel29/docker-graphql:0.0.2
         docker push nestordaniel29/docker-graphql:latest
      
